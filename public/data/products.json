@@ -1,0 +1,443 @@
+[
+  {
+    "id": 1,
+    "name": "D. Montebella 01",
+    "category": "Women's Shoes",
+    "description": "Wedges wanita dengan desain minimalis dan elegan, Bocorocco D. Montebella 01 menghadirkan kenyamanan dan gaya yang sempurna untuk mendukung aktivitas sehari-hari, terutama saat bekerja. Dibuat dari bahan kulit asli berkualitas tinggi, sepatu ini menjadi pilihan yang tepat untuk tampil profesional tanpa mengorbankan kenyamanan.",
+    "price": 3390000,
+    "release_date": "2025-07-01",
+    "images": {
+      "nero": "images/products/D.-Montebella-01-nero.png"
+    },
+    "sizes": ["35", "37", "38", "41"],
+    "colors": ["nero"]
+  },
+  {
+    "id": 2,
+    "name": "D. Liliana 16",
+    "category": "Women's Shoes",
+    "description": "D. Liliana 16 adalah sepatu hak tinggi berbahan kulit asli dengan warna marun elegan yang memancarkan kesan mewah. Dengan hak setinggi 9 cm, sepatu ini dirancang untuk memberikan tampilan yang sophisticated tanpa mengorbankan kenyamanan. Cocok untuk dipakai ke acara formal, bekerja, atau aktivitas yang membutuhkan tampilan profesional dan percaya diri.",
+    "price": 1197000,
+    "release_date": "2025-07-01",
+    "images": {
+      "marrone": "images/products/D.-Liliana-16-marrone.png"
+    },
+    "sizes": ["39", "37"],
+    "colors": ["marrone"]
+  },
+  {
+    "id": 3,
+    "name": "D. Bologna 99",
+    "category": "Women's Shoes",
+    "description": "Bocorocco Bologna 99 adalah sepatu boot dengan desain minimalis yang memancarkan kesan elegan dan profesional. Dengan warna hitam klasik dan hak setinggi 7 cm, sepatu ini dirancang untuk wanita aktif yang membutuhkan kenyamanan dan gaya dalam setiap langkah. Cocok untuk berbagai kesempatan, mulai dari acara formal hingga aktivitas harian.",
+    "price": 3490000,
+    "release_date": "2025-06-29",
+    "images": {
+      "nero": "images/products/D.-Bologna-99-nero.png"
+    },
+    "sizes": ["35", "38", "39", "40", "41"],
+    "colors": ["nero"]
+  },
+  {
+    "id": 4,
+    "name": "D. Arabela 38",
+    "category": "Women's Shoes",
+    "description": "Bocorocco D. Arabela 38 menawarkan kombinasi sempurna antara kenyamanan, kualitas, dan keanggunan klasik. Dengan warna yang serbaguna, sepatu ini dirancang untuk wanita modern yang ingin tampil stylish tanpa mengorbankan kenyamanan. Cocok digunakan untuk berbagai aktivitas, mulai dari bekerja, menghadiri acara formal, hingga santai di akhir pekan. Pilihan tepat bagi Anda yang menghargai gaya dan kesehatan kaki.",
+    "price": 3890000,
+    "release_date": "2025-06-20",
+    "images": {
+      "nero": "images/products/D.-Arabela-38-nero.png"
+    },
+    "sizes": ["36", "37","38", "39", "41"],
+    "colors": ["nero"]
+  },
+  {
+    "id": 5,
+    "name": "D. Melisa 37",
+    "category": "Women's Shoes",
+    "description": "Rasakan kenyamanan dan gaya maksimal dengan D. MELISA 37 CAMELLO. Sepatu ini dilengkapi teknologi pillow concept yang mengurangi rasa sakit dan memberikan kenyamanan tak tertandingi. Dibuat dari kulit asli berkualitas tinggi, sandal ini adalah pilihan sempurna untuk melengkapi gaya Anda. Ucapkan selamat tinggal pada rasa tidak nyaman, dan sambutlah kemewahan dalam setiap langkah!",
+    "price": 4290000,
+    "release_date": "2025-06-20",
+    "images": {
+      "nero": "images/products/D.-Melisa-37-nero.png"
+    },
+    "sizes": ["37","38", "39"],
+    "colors": ["nero"]
+  },
+  {
+    "id": 6,
+    "name": "D. Jolly 11",
+    "category": "Women's Shoes",
+    "description": "D. Jolly 11 adalah boot premium berbahan kulit asli dengan hak 7 cm yang memberikan kesan tinggi dan percaya diri tanpa mengorbankan kenyamanan. Dengan warna hitam elegan, sepatu ini dirancang untuk melengkapi gaya formal maupun semi-formal Anda. Cocok untuk aktivitas harian maupun acara spesial, D. Jolly 11 Nero memadukan kualitas premium dengan estetika modern yang tak lekang oleh waktu.",
+    "price": 25290000,
+    "release_date": "2025-06-20",
+    "images": {
+      "nero": "images/products/D.-Jolly-11-nero.png"
+    },
+    "sizes": ["36","38", "39", "41"],
+    "colors": ["nero"]
+  },
+  {
+    "id": 7,
+    "name": "D. Verona 60",
+    "category": "Women's Shoes",
+    "description": "D. Verona 60 adalah sandal wanita elegan dengan sentuhan glitter yang memikat, sempurna untuk melengkapi penampilan Anda di berbagai acara. Dengan desain yang anggun, sandal ini cocok digunakan untuk suasana formal maupun casual. Perpaduan warna platinum gelap memberikan kesan mewah sekaligus modern.",
+    "price": 3290000,
+    "release_date": "2025-06-10",
+    "images": {
+      "platinum": "images/products/D.-Veroba-60-platinum.png"
+    },
+    "sizes": ["36","38", "39", "41"],
+    "colors": ["platinum"]
+  },
+  {
+    "id": 8,
+    "name": "D. Tuscany 02",
+    "category": "Women's Shoes",
+    "description": "D. Tuscany 02 adalah flatshoes kulit dengan desain minimalis yang cocok untuk segala suasana. Dilengkapi dengan Pillow Concept Technology, sepatu ini memberi kenyamanan ekstra, membuat setiap langkah Anda terasa ringan sepanjang hari.",
+    "price": 3490000,
+    "release_date": "2025-06-10",
+    "images": {
+      "taupe": "images/products/D.-Tuscany-02-taupe.png"
+    },
+    "sizes": ["35"],
+    "colors": ["taupe"]
+  },
+  {
+    "id": 9,
+    "name": "D. Torino 05",
+    "category": "Women's Shoes",
+    "description": "Boot wedges wanita yang memadukan gaya klasik dengan kenyamanan modern. Bocorocco D. Torino 05 hadir dengan warna coklat tua yang elegan, cocok untuk berbagai kesempatan, baik formal maupun casual. Dibuat dari kulit asli berkualitas tinggi, sepatu ini dirancang untuk mendukung aktivitas Anda dengan penuh percaya diri.",
+    "price": 4390000,
+    "release_date": "2025-06-10",
+    "images": {
+      "testa": "images/products/D.-Torino-05-testa.png",
+      "nero": "images/products/D.-Torino-05-nero.png"
+    },
+    "sizes": ["35"],
+    "colors": ["testa", "nero"]
+  },
+  {
+    "id": 10,
+    "name": "D. Melisa 66",
+    "category": "Women's Shoes",
+    "description": "D. Melisa 66 adalah sandal slop wanita yang hadir dengan desain stylish dan bahan kulit berkualitas tinggi. Warna Cognac yang elegan memberi kesan mewah dan cocok untuk berbagai kesempatan, baik santai maupun semi-formal. Dilengkapi dengan teknologi terbaru untuk memberikan kenyamanan sepanjang hari tanpa mengorbankan gaya.",
+    "price": 3490000,
+    "release_date": "2025-06-01",
+    "images": {
+      "cognac": "images/products/D.-Melisa-66-cognag.png",
+      "nero": "images/products/D.-Melisa-66-nero.png"
+    },
+    "sizes": ["36","38", "39", "40", "41"],
+    "colors": ["cognac", "nero"]
+  },
+  {
+    "id": 11,
+    "name": "D. Luciana 104",
+    "category": "Women's Shoes",
+    "description": "D. Luciana 104 adalah flatshoes berbahan kulit asli dengan warna hitam yang timeless dan serbaguna. Sepatu ini dirancang untuk menemani berbagai aktivitas, mulai dari bekerja, berjalan santai, hingga acara formal, dengan tetap mengutamakan kenyamanan maksimal.",
+    "price": 3690000,
+    "release_date": "2025-06-01",
+    "images": {
+      "bianco": "images/products/D.-Luciana-104-bianco.png"
+    },
+    "sizes": ["37","38", "40"],
+    "colors": ["bianco"]
+  },
+  {
+    "id": 12,
+    "name": "D. Emily 24",
+    "category": "Women's Shoes",
+    "description": "Bocorocco D. Emily 24 adalah flatshoes berdesain elegan dengan warna navy matte yang memberikan tampilan modern dan serbaguna. Sepatu ini dibuat untuk Anda yang mengutamakan kenyamanan tanpa mengorbankan gaya. Cocok untuk berbagai aktivitas, mulai dari santai hingga formal.",
+    "price": 1745000,
+    "release_date": "2025-06-01",
+    "images": {
+      "bianco": "images/products/D.-Emily-24-bianco.png",
+      "navy": "images/products/D.-Emily-24-navy.png"
+    },
+    "sizes": ["39"],
+    "colors": ["bianco", "navy"]
+  },
+  {
+    "id": 13,
+    "name": "D. Firenze 12",
+    "category": "Women's Shoes",
+    "description": "Dengan bahan berkualitas tinggi dipadukan dengan design dan teknologi yang mampu memberikan kenyamanan dan kesehatan serta fashion dalam satu kesatuan. Beraktivitas menggunakan boots tidak takut capek dan sakit karena Pillow Concept Technology Bocorocco mampu meredam guncangan penyebab sakit di 5 titik vital tubuh yaitu tumit, lutut, pinggang, leher hingga ke otak.",
+    "price": 4990000,
+    "release_date": "2025-05-20",
+    "images": {
+      "nero": "images/products/D.-Firenze-12-nero.png"
+    },
+    "sizes": ["35","36","38", "39", "40", "41"],
+    "colors": ["nero"]
+  },
+  {
+    "id": 14,
+    "name": "D. Coco 02",
+    "category": "Women's Shoes",
+    "description": "Bocorocco D. Coco 02 Rosso adalah sandal flat dengan desain klasik dan warna merah yang memikat. Cocok untuk Anda yang ingin tampil berani namun tetap nyaman dalam berbagai aktivitas harian. Dirancang untuk memberikan kenyamanan maksimal, sandal ini sempurna untuk gaya kasual maupun semi-formal.",
+    "price": 1995000,
+    "release_date": "2025-05-20",
+    "images": {
+      "rosso": "images/products/D.-Coco-02-rosso.png",
+      "cognac": "images/products/D.-Coco-02-cognac.png"
+    },
+    "sizes": ["37", "38", "39", "40"],
+    "colors": ["rosso", "cognac"]
+  },
+  {
+    "id": 15,
+    "name": "D. Bologna 04",
+    "category": "Women's Shoes",
+    "description": "Bocorocco Bologna 04 adalah sepatu boot elegan dengan warna coklat tua yang memancarkan kesan klasik dan berkelas. Dirancang dengan hak setinggi 7 cm, sepatu ini menjadi pilihan sempurna untuk Anda yang ingin tampil percaya diri dengan sentuhan gaya modern. Cocok untuk berbagai aktivitas, baik formal maupun kasual, sepatu ini memastikan kenyamanan sepanjang hari tanpa kompromi pada gaya.",
+    "price": 7990000,
+    "release_date": "2025-05-20",
+    "images": {
+      "testa": "images/products/D.-Bologna-04-testa.png"
+    },
+    "sizes": ["37", "38", "39"],
+    "colors": ["testa"]
+  },
+  {
+    "id": 16,
+    "name": "D. Vito 39",
+    "category": "Men's Shoes",
+    "description": "Sneaker kulit pria dengan desain elegan dan modern untuk menunjang gaya kasual yang stylish.",
+    "price": 4190000,
+    "release_date": "2025-07-01",
+    "images": {
+      "nero": "images/products/D.-Vito-39-nero.png"
+    },
+    "sizes": ["43"],
+    "colors": ["nero"]
+  },
+  {
+    "id": 17,
+    "name": "D. Vito 02",
+    "category": "Men's Shoes",
+    "description": "Sneaker pria bertali dengan warna coklat tua yang elegan, Bocorocco U. Vito 02 Testa Di menghadirkan kombinasi sempurna antara kenyamanan dan gaya semi-formal. Dibuat dari kulit asli berkualitas tinggi, sepatu ini cocok untuk berbagai suasana, baik casual maupun formal seperti bekerja.",
+    "price": 3590000,
+    "release_date": "2025-06-29",
+    "images": {
+        "moro": "images/products/D.-Vito-02-moro.png",
+        "nero": "images/products/D.-Vito-02-nero.png"
+    },
+    "sizes": ["44", "46"],
+    "colors": ["moro", "nero"]
+    },
+{
+    "id": 18,
+    "name": "U. Trend 25",
+    "category": "Men's Shoes",
+    "description": "Sneaker kulit pria dengan warna testa di moro yang klasik dan maskulin.",
+    "price": 4890000,
+    "release_date": "2025-06-29",
+    "images": {
+      "testa": "images/products/D.-Trend-25-testa.png",
+      "nero": "images/products/D.-Trend-25-nero.png"
+    },
+    "sizes": ["38", "39", "40", "41", "42", "43"],
+    "colors": ["testa", "nero"]
+  },
+  {
+    "id": 19,
+    "name": "U. Stefano 44",
+    "category": "Men's Shoes",
+    "description": "Pantofel pria kulit asli dengan warna yang elegan untuk tampilan formal yang sempurna.",
+    "price": 4190000,
+    "release_date": "2025-06-20",
+    "images": {
+      "testa": "images/products/D.-Stefano-44-testa.png"
+    },
+    "sizes": ["41", "42", "43", "45"],
+    "colors": ["testa"]
+  },
+  {
+    "id": 20,
+    "name": "U. Ricardo 13",
+    "category": "Men's Shoes",
+    "description": "Loafer kulit pria premium dengan warna yang elegan. Cocok untuk tampilan santai maupun formal.",
+    "price": 11190000,
+    "release_date": "2025-06-20",
+    "images": {
+      "testa": "images/products/D.-Ricardo-13-testa.png",
+      "arancione": "images/products/D.-Ricardo-13-arancione.png"
+    },
+    "sizes": ["41", "42", "44", "45"],
+    "colors": ["testa", "arancione"]
+  },
+  {
+    "id": 21,
+    "name": "U. Marco 43",
+    "category": "Men's Shoes",
+    "description": "U. Marco 43 adalah sandal pria berbahan kulit yang mengutamakan kenyamanan dan gaya. Dilengkapi dengan Pillow Concept Technology, sandal ini memberikan perlindungan maksimal untuk kaki Anda, meredam guncangan, dan menjaga kesehatan kaki saat beraktivitas.",
+    "price": 3590000,
+    "release_date": "2025-06-20",
+    "images": {
+      "nero": "images/products/D.-Marco-43-nero.png"
+    },
+    "sizes": ["38", "39", "40", "41", "42", "43", "44"],
+    "colors": ["nero"]
+  },
+  {
+    "id": 22,
+    "name": "U. Marco 14",
+    "category": "Men's Shoes",
+    "description": "Sandal kulit asli warna dengan desain kasual yang cocok untuk berbagai aktivitas santai.",
+    "price": 1745000,
+    "release_date": "2025-06-10",
+    "images": {
+        "testa": "images/products/D.-Marco-14-testa.png",
+      "nero": "images/products/D.-Marco-14-nero.png"
+    },
+    "sizes": ["38", "39", "40", "41", "42", "43", "44"],
+    "colors": ["testa","nero"]
+  },
+  {
+    "id": 23,
+    "name": "U. Marco 05",
+    "category": "Men's Shoes",
+    "description": "U. Marco 05 adalah sandal kulit pria dengan warna elegan untuk gaya kasual yang modern.",
+    "price": 3290000,
+    "release_date": "2025-06-10",
+    "images": {
+        "navy": "images/products/D.-Marco-05-navy.png"
+    },
+    "sizes": ["40", "43", "44", "45"],
+    "colors": ["navy"]
+  },
+  {
+    "id": 24,
+    "name": "U. Marco 01",
+    "category": "Men's Shoes",
+    "description": "U. Marco 01 adalah sandal pria berbahan kulit asli yang menawarkan kombinasi sempurna antara kenyamanan dan gaya kasual.",
+    "price": 3290000,
+    "release_date": "2025-06-10",
+    "images": {
+        "nero": "images/products/D.-Marco-01-nero.png"
+    },
+    "sizes": ["40", "43", "44", "45"],
+    "colors": ["nero"]
+  },
+  {
+    "id": 25,
+    "name": "U. Malpensa 11",
+    "category": "Men's Shoes",
+    "description": "U. Malpensa 11 adalah sepatu pantofel pria dengan desain klasik dan bahan kulit asli yang memberikan kenyamanan serta tampilan profesional.",
+    "price": 5190000,
+    "release_date": "2025-06-01",
+    "images": {
+        "nero": "images/products/D.-Malpensa-11-nero.png"
+    },
+    "sizes": ["39", "40", "41", "42", "43", "44", "45"],
+    "colors": ["nero"]
+  },
+  {
+    "id": 26,
+    "name": "U. Malpensa 08",
+    "category": "Men's Shoes",
+    "description": "U. Malpensa 08 adalah sepatu pantofel pria premium dengan bahan kulit asli yang memberikan kesan profesional dan elegan. Didesain untuk kenyamanan maksimal, sepatu ini cocok digunakan untuk acara formal maupun sehari-hari.",
+    "price": 4190000,
+    "release_date": "2025-06-01",
+    "images": {
+        "nero": "images/products/D.-Malpensa-08-nero.png"
+    },
+    "sizes": ["39", "40", "41", "42", "43", "44", "45"],
+    "colors": ["nero"]
+  },
+  {
+    "id": 27,
+    "name": "U. Lorenzo 09",
+    "category": "Men's Shoes",
+    "description": "U. Lorenzo 09 adalah boot klasik pria dengan desain yang elegan dan maskulin. Sepatu ini cocok digunakan untuk acara santai maupun formal dengan kenyamanan yang optimal.",
+    "price": 4190000,
+    "release_date": "2025-06-01",
+    "images": {
+        "tan": "images/products/D.-Lorenzo-09-tan.png",
+        "nero": "images/products/D.-Lorenzo-09-nero.png"
+    },
+    "sizes": ["40", "41", "42", "44", "45", "46"],
+    "colors": ["tan", "nero"]
+  },
+  {
+    "id": 28,
+    "name": "U. Falco 07",
+    "category": "Men's Shoes",
+    "description": "Loafers pria berdesain klasik yang memancarkan kemewahan dan keanggunan. Bocorocco U. Falco Cal 07 hadir dalam warna coklat tua yang netral dan elegan, cocok untuk berbagai suasana, baik formal maupun semi-casual. Terbuat dari bahan kulit asli berkualitas tinggi, sepatu ini memastikan kenyamanan dan daya tahan yang optimal.",
+    "price": 4290000,
+    "release_date": "2025-05-20",
+    "images": {
+        "tan": "images/products/D.-Falco-07-testa.png",
+        "nevy": "images/products/D.-Falco-07-nevy.png"
+    },
+    "sizes": ["38", "40", "41", "42", "44", "45", "46"],
+    "colors": ["tan", "nevy"]
+  },
+   {
+    "id": 29,
+    "name": "U. Bruno 32",
+    "category": "Men's Shoes",
+    "description": "U. Bruno 32 adalah sandal pria dengan desain kulit hitam yang elegan, memberikan kesan formal namun tetap santai. Sandal ini cocok untuk berbagai acara dan memberikan kenyamanan sepanjang hari.",
+    "price": 3290000,
+    "release_date": "2025-05-20",
+    "images": {
+        "testa": "images/products/D.-Bruno-32-testa.png"
+    },
+    "sizes": ["39", "40", "41", "44"],
+    "colors": ["testa"]
+  },
+  {
+    "id": 30,
+    "name": "U. Bolzano 10",
+    "category": "Men's Shoes",
+    "description": "U. Bolzano 10 adalah sepatu sport pria slim fit yang dirancang untuk memberikan kenyamanan maksimal dalam setiap langkah. Dengan desain modern dan bahan berkualitas, sepatu ini cocok untuk berbagai aktivitas aktif.",
+    "price": 4290000,
+    "release_date": "2025-05-20",
+    "images": {
+        "nero": "images/products/D.-Bolzano-10-nero.png"
+    },
+    "sizes": ["39", "44"],
+    "colors": ["nero"]
+  },
+  {
+    "id": 31,
+    "name": "U. Alberto 04",
+    "category": "Men's Shoes",
+    "description": "U. Alberto 04 hadir dengan warna coklat gelap yang elegan dan desain klasik. Sepatu ini dirancang untuk memberikan kenyamanan sepanjang hari sekaligus melengkapi gaya Anda.",
+    "price": 5890000,
+    "release_date": "2025-05-10",
+    "images": {
+        "testa": "images/products/D.-Alberto-04-testa.png",
+        "nero": "images/products/D.-Alberto-04-nero.png"
+    },
+    "sizes": ["40", "41", "42", "43", "44"],
+    "colors": ["testa", "nero"]
+  },
+  {
+    "id": 32,
+    "name": "U. Alberto 03",
+    "category": "Men's Shoes",
+    "description": "U. Alberto 03 hadir dengan warna coklat gelap yang elegan dan desain klasik. Sepatu ini dirancang untuk memberikan kenyamanan sepanjang hari sekaligus melengkapi gaya Anda.",
+    "price": 5890000,
+    "release_date": "2025-05-10",
+    "images": {
+        "testa": "images/products/D.-Alberto-03-testa.png",
+        "tan": "images/products/D.-Alberto-03-tan.png"
+    },
+    "sizes": ["40", "41", "42", "43", "44"],
+    "colors": ["testa", "tan"]
+  },
+  {
+    "id": 33,
+    "name": "U. Alberto 01",
+    "category": "Men's Shoes",
+    "description": "U. Alberto 01 hadir dengan warna coklat gelap yang elegan dan desain klasik. Sepatu ini dirancang untuk memberikan kenyamanan sepanjang hari sekaligus melengkapi gaya Anda.",
+    "price": 5890000,
+    "release_date": "2025-05-10",
+    "images": {
+        "testa": "images/products/D.-Alberto-01-testa.png"
+    },
+    "sizes": ["40", "41", "42", "43", "44"],
+    "colors": ["testa"]
+  }
+]
