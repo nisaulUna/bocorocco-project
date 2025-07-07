@@ -1,68 +1,87 @@
-# CodeIgniter 4 Application Starter
 
-## What is CodeIgniter?
+# Bocorocco CI4 Project
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+Project ini merupakan bagian dari **Tes Internship – Bocorocco PT. Chosen Mitra Abadi**, 
+dibangun menggunakan **CodeIgniter 4** dan **MySQL**.
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## Deskripsi
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+Pada project ini, data produk diambil dari **file JSON** yang berfungsi sebagai sumber utama untuk menampilkan data produk Bocorocco pada bagian frontend.  
+Data ini kemudian **disinkronisasikan ke database MySQL** agar dapat digunakan pada sisi backend untuk kebutuhan filtering, kueri, dan perhitungan statistik.
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+## Struktur Data JSON
 
-## Installation & updates
+File `products.json` berisi array data produk dengan struktur sebagai berikut:
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+```json
+{
+  "id": INT,
+  "name": STRING,
+  "category": STRING,
+  "description": STRING,
+  "price": INT,
+  "release_date": "YYYY-MM-DD",
+  "images": {
+    "color_name": "path/to/image.png"
+  },
+  "sizes": [ "35", "36", ... ],
+  "colors": [ "nero", "bianco", ... ]
+}
+```
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+## Halaman yang Diimplementasikan
 
-## Setup
+Berikut adalah tampilan halaman yang telah dibangun:
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+1. **Main Page (Ganti Produk)** – halaman utama yang menampilkan daftar produk dan best-seller.
+2. **Product Detail Page** – menampilkan detail produk serta tombol “Add to Cart”.
+3. **Search Page** – menampilkan hasil pencarian berdasarkan nama produk atau keyword.
+4. **Cart Page** – menampilkan isi keranjang belanja dan kontrol kuantitas.
+5. **Checkout Page** – menampilkan ringkasan pesanan, alamat, metode pembayaran, promo, dan total harga.
 
-## Important Change with index.php
+## Setup Project
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+### 1. Clone Repository
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+```bash
+git clone https://github.com/nisaulUna/bocorocco-project.git
+cd bocorocco-project
+```
 
-**Please** read the user guide for a better explanation of how CI4 works!
+### 2. Import Database
 
-## Repository Management
+Import file SQL ke database MySQL menggunakan phpMyAdmin atau melalui command line.
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+### 3. Jalankan Seeder untuk Sinkronisasi JSON
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+```bash
+php spark db:seed ProductSeeder
+```
 
-## Server Requirements
+Seeder ini akan membaca data dari `products.json` dan menyimpannya ke tabel `products` dan `product_variants` pada database.
 
-PHP version 8.1 or higher is required, with the following extensions installed:
+### 4. Jalankan Seeder Data Dummy
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+```bash
+php spark db:seed DummySeeder
+```
 
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
+Seeder ini digunakan untuk mengisi data dummy seperti user, promo, alamat, dan lainnya yang diperlukan untuk simulasi sistem.
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+## Catatan Tambahan
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+- Project menggunakan struktur MVC CodeIgniter 4 dan mengikuti prinsip DRY (Don't Repeat Yourself).
+- Halaman bersifat responsif dan menyesuaikan dengan tampilan desain pada Figma.
+- File JSON digunakan sebagai jembatan utama antara frontend dan backend dalam proses integrasi data.
+
+## Jawaban Soal Nomor 3
+
+Query SQL untuk menampilkan nama kota dan jumlah penduduk dari kota-kota di Indonesia (`COUNTRYCODE = 'INA'`) yang memiliki populasi lebih dari 5 juta:
+
+```sql
+SELECT NAME, POPULATION
+FROM city
+WHERE COUNTRYCODE = 'INA'
+  AND POPULATION > 5000000
+ORDER BY POPULATION DESC;
+```
