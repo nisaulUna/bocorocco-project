@@ -1,5 +1,5 @@
 
-# Bocorocco CI4 Project
+# Bocorocco CI4 Project (Nisaul Husna)
 
 Project ini merupakan bagian dari **Tes Internship – Bocorocco PT. Chosen Mitra Abadi**, 
 dibangun menggunakan **CodeIgniter 4** dan **MySQL**.
