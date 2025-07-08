@@ -29,7 +29,7 @@ File `products.json` berisi array data produk dengan struktur sebagai berikut:
 }
 ```
 
-## Halaman yang Diimplementasikan
+## Halaman yang Di implementasikan
 
 Berikut adalah tampilan halaman yang telah dibangun:
 
@@ -70,7 +70,7 @@ Seeder ini digunakan untuk mengisi data dummy seperti user, promo, alamat, dan l
 
 ## Catatan Tambahan
 
-- Project menggunakan struktur MVC CodeIgniter 4 dan mengikuti prinsip DRY (Don't Repeat Yourself).
+- Project menggunakan pendekatan Object-Oriented Programming (OOP) berbasis struktur MVC CodeIgniter 4.
 - Halaman bersifat responsif dan menyesuaikan dengan tampilan desain pada Figma.
 - File JSON digunakan sebagai jembatan utama antara frontend dan backend dalam proses integrasi data.
 
