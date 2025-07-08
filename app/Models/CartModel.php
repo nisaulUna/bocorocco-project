@@ -10,6 +10,12 @@ class CartModel extends Model
     protected $primaryKey = 'id';
     protected $allowedFields = ['user_id', 'product_id', 'color', 'size', 'quantity'];
 
+    // Clear after checkout
+    public function clearUserCart($userId)
+    {
+        return $this->where('user_id', $userId)->delete();
+    }
+
     // Get all cart items for a specific user
     public function getUserCart($userId)
     {

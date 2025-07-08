@@ -25,7 +25,9 @@
   <!-- Shipping Address -->
   <div class="mb-4 p-3 bg-light rounded shadow-sm">
     <h5 class="mb-2">Shipping Address</h5>
-    <p class="mb-0"><?= $address['full_address'] ?? 'Example Street, South Jakarta' ?></p>
+    <p class="mb-0">
+      <?= $address['full_address'] ?>, <?= $address['district'] ?>, <?= $address['city'] ?>, <?= $address['province'] ?>
+  </p>
   </div>
 
   <!-- List of Products in Cart -->
@@ -60,7 +62,7 @@
     <form id="paymentForm">
       <?php foreach (['BCA', 'BRI', 'Mandiri'] as $bank): ?>
         <div class="form-check mb-2">
-          <input class="form-check-input" type="radio" name="payment_method" value="<?= $bank ?>" <?= $bank == 'BCA' ? 'checked' : '' ?>>
+          <input class="form-check-input" type="radio" name="payment_method" value="<?= $bank ?>">
           <label class="form-check-label"><?= $bank ?> Virtual Account</label>
         </div>
       <?php endforeach; ?>
@@ -74,8 +76,10 @@
       <input type="text" name="promo_code" class="form-control w-50" placeholder="Enter promo code">
       <button class="btn btn-dark">Apply</button>
     </form>
-    <?php if (isset($couponMessage)): ?>
-      <small class="text-<?= $couponValid ? 'success' : 'danger' ?> d-block mt-2"><?= $couponMessage ?></small>
+    <?php if (session()->getFlashdata('success')): ?>
+      <small class="text-success d-block mt-2"><?= session()->getFlashdata('success') ?></small>
+    <?php elseif (session()->getFlashdata('error')): ?>
+      <small class="text-danger d-block mt-2"><?= session()->getFlashdata('error') ?></small>
     <?php endif; ?>
   </div>
 
